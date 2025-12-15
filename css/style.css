@@ -1,47 +1,106 @@
-body{
-    font-family: sans-serif;
+body {
+	font-family: sans-serif;
 }
 
-.box{
-    width: 1200px;
-    margin: 0 auto;
+.box {
+	width: 1200px;
+	margin: 0 auto;
 }
 
+.to-uppercase {
+	text-transform: uppercase !important;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear: both;
+}
 .main-header__brand {
-    display: inline-block;
-    vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .main-header__brand img {
-    width: 64px;
-    border-radius: 25%;
+	width: 64px;
+	border-radius: 25%;
 }
 
 .main-navigation {
-    display: inline-block;
-    vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .main-navigation__item {
-    display: inline-block;
-    padding: 10px;
+	display: inline-block;
+	padding: 10px;
 }
 
 .main-navigation__item a {
-    text-decoration: none;
-    color: #05364d;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 14px;
+	text-decoration: none;
+	color: #05364d;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
 }
 
 .main-navigation__item a:hover {
-    color: #ff6600;
+	color: #ff6600;
 }
 
 .main-navigation__item.active a {
-    color: #ff6600;
-    border-bottom: 2px solid #ff6600;
-    padding-bottom: 3px;
+	color: #ff6600;
+	border-bottom: 2px solid #ff6600;
+	padding-bottom: 3px;
 }
 
+.main-section {
+	padding: 100px 30px;
+}
+
+.main-section > div {
+	width: 50%;
+	float: left;
+}
+
+.main-section__image {
+	text-align: right;
+}
+
+.main-section__welcome {
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #797979;
+	margin-bottom: 20px;
+}
+
+.main-section__intro {
+	margin-top: 20px;
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: #05364e;
+}
+
+.main-section__position {
+	font-size: 24px;
+	font-weight: 300;
+	color: #05364e;
+	margin-bottom: 20px;
+}
+
+.main-section button {
+	margin-top: 30px;
+	border: none;
+	background-color: #1c44e4;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 20px 40px;
+	cursor: pointer;
+	border-radius: 5px;
+}
